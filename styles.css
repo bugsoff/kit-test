@@ -1,0 +1,107 @@
+body {
+	font: 14pt arial;
+}
+
+button {
+	margin: 0px 0px 10px 4px;
+	padding: 0px;
+	font: 20pt/20pt Impact;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+button#exit {
+	float: right;
+}
+button#create {
+	color: mediumblue;
+}
+
+div.item {
+	margin: 20px 0px 0px 40px;
+	border: solid 1px #ccc;
+	padding: 10px;
+}
+
+div.item p {
+	padding: 0px 20px;
+}
+
+fieldset label {
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+div.item input,
+fieldset input,
+input {
+	height: 32px;
+	width: 512px;
+	font: 16pt/18pt verdana;
+	padding: 0px 10px;
+}
+
+div.item textarea,
+fieldset textarea {
+	height: 64px;
+	width: 512px;
+	font: 14pt/16pt arial;
+	padding: 10px;
+}
+
+div.item span,
+fieldset span {
+	display: block;
+	background-color: lightyellow;
+	width: 512px;
+	padding: 0px 10px;
+}
+
+fieldset button {
+	float: right;
+}
+
+.pick:hover {
+	border: dotted 2px #fc6;
+	cursor: pointer;
+	background-color: lightyellow;
+}
+
+.name,
+.pick {
+	padding: 5px 10px;
+	font-family: Verdana, Tahoma;
+	background-color: lightgrey;
+}
+
+.user {
+	display: inline-block;
+	min-width: 66%;
+	margin: 0px;
+}
+
+div.user {
+	display: block;
+	border: none;
+	padding: 0px;
+	margin: 10px 0px 0px 40px;
+}
+
+.description {
+	width: 60%;
+}
+
+div.item_desc {
+	float: right;
+	border: solid 1px #eee;
+	width: 40%;
+	margin: 60px 0px 0px 0px;
+	padding: 10px 10px 10px 20px;
+}
+
+.item_desc button {
+	float: right;
+}
